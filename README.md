@@ -1,6 +1,8 @@
 # CMPE258_HW2_YOLOv4
 
-I used transfer learning to retrain the YOLOv4 model.
+# I used transfer learning to retrain the YOLOv4 model.
+# 2000 images for training and 200 for validation.
+
 # Modified files:
 ## 1. cfg/yolov4-obj.cfg
   max_batches = 20000
@@ -25,3 +27,5 @@ I used transfer learning to retrain the YOLOv4 model.
   valid  = data/test.txt
   names = data/obj.names
   backup = /mydrive/yolov4/backup
+
+# Results: I spent over 7 hours to train the model but it only can detect Apple and Orange. I think it's because there're too many images to train and the performance of Google Colab is limited.
