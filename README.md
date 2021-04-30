@@ -30,4 +30,5 @@
   
   backup = /mydrive/yolov4/backup
   
+## Github: https://github.com/iloveleejunghyun/CMPE258_HW2_YOLOv4
 
