@@ -1,7 +1,7 @@
 # CMPE258_HW2_YOLOv4
 
 # I used transfer learning to retrain the YOLOv4 model.
-# 2000 images for training and 200 for validation.
+# 600 images for training and 100 for validation.
 
 # Modified files:
 ## 1. cfg/yolov4-obj.cfg
